@@ -1,17 +1,21 @@
-n = []
+nums = [3, 6, 9, 12, 15, 18]
 
-n.append(0)
-n.append(1)
-n.append(2)
-for i in range(2):
-    x=int(input("Enter a number: "))
-    n.append(x)
+items = ["Milk", "Bread", "Eggs"]
+prices = [3.49, 2.99, 4.50]
 
-del n[3] 
-del n[3]  
-n.insert(0, 4)
 
-for i in range(len(n)):
-    t += n[i]
-    print(t)
 
+print ("Your total is $10.98")
+
+
+
+
+
+
+evens = []
+
+for i in (nums):
+    if i%2==0:
+        evens.append(i)
+
+print (evens)
