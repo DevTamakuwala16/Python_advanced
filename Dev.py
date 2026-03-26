@@ -1,21 +1,17 @@
-nums = [3, 6, 9, 12, 15, 18]
+new_dict = {}
+for i in range (5):
+    x = input("Create a key: ").lower()
+    y = input("Create a value for that key: ").lower()
+    new_dict[x]=y
+print(new_dict)
+z = input("Call a key: ")
+print(new_dict[z])
+a = input("What key and value would you like to delete: ").lower()
+del new_dict[a]
+print(new_dict)
+print(len(new_dict))
+check = input("Tell me a key and I shall check if it exits").lower()
+if check not in list:
+    print(new_dict)
 
-items = ["Milk", "Bread", "Eggs"]
-prices = [3.49, 2.99, 4.50]
-
-
-
-print ("Your total is $10.98")
-
-
-
-
-
-
-evens = []
-
-for i in (nums):
-    if i%2==0:
-        evens.append(i)
-
-print (evens)
+second.update(new_dict)
